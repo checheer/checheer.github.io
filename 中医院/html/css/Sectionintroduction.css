@@ -1,0 +1,102 @@
+
+.clear::after{content:"";display: block;clear: both;}
+#contents{position: relative;background: #fcf4e4;z-index: 10;overflow:hidden;padding-bottom: 80px;}
+#contents .position{margin: 20px 0;height: 28px;line-height: 28px;font-size: 14px;color: #222;
+border-bottom:1px solid #aa0e25;}
+.position {height: 29px;line-height: 29px;}
+.position .ptleft{float:left;}
+.position .ptleft span{padding: 0 18px 0 5px;}
+.position .ptleft a{margin-right: 5px;}
+.position .ptright{float:right;}
+.position .ptright{margin-right: 5px;}
+
+.container{font-family: '微软雅黑';}
+.container .menu{width: 250px;float: left;border: 1px solid #a06533;background: #f4e9d5;}
+.container .menu .spantitle{display: block;width: 250px;height: 45px;background: #790000;margin-bottom: 20px;line-height: 45px;text-align: center;font-size: 22px;color: #fff;}
+.container .menu h3{font-family: '微软雅黑';font-weight: normal;margin:0 0 20px 6px;height: 39px;width: 239px;background: url(../image/Department-bg.png) center  no-repeat;overflow: hidden;text-indent: 30px;border-radius: 3px;line-height: 36px;color: #333;}
+.container .menu h3:hover{cursor: pointer;}
+.container .menu h3.active{color: #fff;background:url(../image/Department.png) center  no-repeat;cursor: pointer;}
+.container .menu ul{display: none;}
+.container .menu ul.ullast{padding-left: 15px;}
+.container .menu ul li{height: 40px;line-height: 40px;text-indent: 68px;}
+.container .menu ul.ullast>li{width: 115px;float: left;text-align: left;text-indent: 0px;}
+.container .menu ul li:hover a{color: #790000;}
+.container .menu ul li a{color: #333;}
+.container .menu ul li .selected{color: #790000;}
+
+
+.container .content{width: 916px;float: right;border:1px solid #790000;border-radius: 3px;overflow: hidden;}
+.container .content .menu1 .tab {display: none;}
+.container .content .menu1 .active{display: block;}
+.tt{background: #f4e9d5;}
+.tt .right-title{padding: 5px 0;height: 46px;border-bottom: 1px solid #aa0e25;background: url(../image/titlebj.png) no-repeat center;}
+.tt .right-title span{display: block;margin-left: 15px;width: 147px;height: 46px;line-height: 46px;font-size: 18px;text-align: center;color: #fff;background: #930303; border-radius: 3px;}
+.tt .right-cent{width: 869px;margin: 0 auto;}
+.tt .right-cent .img{margin:auto;width: 545px;height: 327px;padding-top: 20px;}
+.tt .right-cent .Section-introduction{margin-top: 15px;}
+.Section-introduction .top{height: 28px;line-height: 28px;border-bottom: 1px solid #444;padding-bottom:2px ;}
+.Section-introduction .top p.left{float: left;border-bottom: 2px solid #790000;font-size: 16px;color: #790000;padding: 0 5px;}
+.Section-introduction .top p.right{float: right;padding-top: 2px;font-size: 14px;color: #555;}
+.Section-introduction>.top>p>span{font-size: 14px;font-family: "微软雅黑";color: #555;}
+.Section-introduction .bottom {margin: 25px 0;}
+.Section-introduction .bottom p{text-indent: 25px;color: #333;line-height: 28px;}
+ 
+.office-personnel .top{margin-bottom: 20px;height: 28px;line-height: 28px;border-bottom: 1px solid #444;padding-bottom:2px;}
+.office-personnel .top p{width: 80px;height: 28px;border-bottom: 2px solid #790000;font-size: 16px;color: #790000;padding: 0 5px;}
+.office-personnel .bottom ul{display: flex;justify-content: space-around;flex-wrap: wrap;}
+.office-personnel .bottom ul li{width: 230px;height: 118px;margin-bottom: 30px;}
+.office-personnel .bottom ul li:hover{background: #fcf4e4;}
+.office-personnel .bottom ul li .lileft{float: left;width: 98px;height: 118px;}
+.office-personnel .bottom ul li .liright{float: left;margin-left: 16px;}
+.office-personnel .bottom ul li .liright p{color: #790000;font-size: 14px;}
+.office-personnel .bottom ul li .liright p span{color: #790000;}
+.office-personnel .bottom ul li .liright p:nth-child(1){padding-top: 30px;font-size: 16px;}
+.office-personnel .bottom ul li .liright p:nth-child(2){padding-top: 10px;}
+ 
+ .advantage{padding-bottom: 40px;}
+ .advantage .top{margin-bottom: 20px;height: 28px;line-height: 28px;border-bottom: 1px solid #444;padding-bottom:2px;}
+ .advantage .top p{width: 80px;height: 28px;border-bottom: 2px solid #790000;font-size: 16px;color: #790000;padding: 0 5px;}
+ .advantage .bottom p{text-indent: 25px;color: #333;line-height: 28px;}
+ 
+.container .content .menu2 .tab {display: none;}
+.container .content .menu2 .active{display: block;}
+
+.container .content .menu3 .tab {display: none;}
+.container .content .menu3 .active{display: block;}
+
+.container .content .menu4 .tab {display: none;}
+.container .content .menu4 .active{display: block;}
+
+.container .content .menu5 .tab {display: none;}
+.container .content .menu5 .active{display: block;}
+
+
+
+
+
+
+
+.foot{margin-top: 40px;}
+.foot .footlink{height: 30px;border-bottom:2px solid #790000;}
+.foot .footlink p{float: left;width: 120px;background: url(../image/I_ico.png) left 0 center no-repeat;text-indent: 30px;}
+.foot .footlink p a{font-size: 18px;font-family: '微软雅黑';color: #790000;}
+.footlink ul{float: left;width: 780px;margin-top: 4px;}
+.footlink ul li{float: left;padding:0 15px;border-right:1px solid #790000;color: #790000;}
+.footlink ul li.last{border:none;}
+.footlink ul li a{font-size: 14px;color: #790000;}
+.footnav{width: 800px;margin:15px 0 0 134px;}
+.footnav ul li {float: left;padding: 0 10px;border-right:1px solid #000;font-size: 14px;}
+.footnav ul li:nth-child(10){border:none;}
+
+.footaddrss{color: #5e5e5e;font-size: 12px;padding-top: 30px;}
+.footaddrss p:nth-child(1){margin-bottom: 10px;margin-left:230px;}
+.footaddrss p span{margin-right: 45px;}
+.footaddrss p span:nth-child(3){margin-right: 0}
+.footaddrss p:nth-child(2){margin-bottom: 30px;margin-left:235px;width: 500px;background: url(../image/foott.png) left 0 center no-repeat;text-indent: 20px;}
+
+
+.topbg{position: absolute;width: 1920px;height: 1095px;background: url(../image/I_content-top.png) center no-repeat;top:25px;left: 0;z-index: -1}
+.leftbg{position: absolute;width: 639px;height: 567px;background: url(../image/I_bjleft.jpg) center no-repeat;bottom:0;left: 0;z-index: -1}
+.rightbg{position: absolute;width: 541px;height: 520px;background: url(../image/I_bjright.jpg) center no-repeat;bottom:0;right: 0;z-index: -1}
+
+

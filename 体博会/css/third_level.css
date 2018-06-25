@@ -1,0 +1,85 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+}
+.detail{
+    width: 870px;
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.detail .in_detail{
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 26px;
+    padding-top: 25px;
+}
+.detail .in_detail .title_box .left_border{
+    width: 4px;
+    height: 32px;
+    display: inline-block;
+}
+.detail .in_detail .title_box .left_border .red{
+    width: 100%;
+    height: 50%;
+    background-color: #f24f4f;
+}
+.detail .in_detail .title_box .left_border .gray{
+    width: 100%;
+    height: 50%;
+    background-color: #666666;
+}
+.detail .in_detail .title_box{
+    height: 32px;
+    font-size: 0px;
+}
+.detail .in_detail .title_box .title{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+.detail .in_detail .title_box .title p{
+	color: #666666;
+}
+.detail .in_detail .title_box .title .chinese{
+    font-size: 14px;
+    height: 20px;
+    line-height: 14px;
+}
+.detail .in_detail .title_box .title .english{
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+}
+.detail .in_detail .content_box{
+    padding-left: 12px;
+    padding-top: 23px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 30px;
+    padding-right: 30px;
+    color: #666666;
+    padding-bottom: 100px;
+}
+.detail .in_detail .content_box h1{
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+.detail .in_detail .content_box .red_title{
+	color: #f24f4f;
+}
+.detail .in_detail .content_box .img_box img{
+	float: left;
+	margin-right: 3px;
+}

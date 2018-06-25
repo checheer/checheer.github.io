@@ -1,0 +1,289 @@
+			@font-face { 
+			  font-family: LighterPingFang; /*这里是说明调用来的字体名字*/ 
+			  src:url("font-family/PingFang Light.ttf"); /*这里是字体文件路径*/ 
+			} 
+			@font-face { 
+			  font-family: MiddlePingFang; /*这里是说明调用来的字体名字*/ 
+			  src:url("font-family/PingFang Medium.ttf"); /*这里是字体文件路径*/ 
+			} 
+			@font-face { 
+			  font-family: AHS; /*这里是说明调用来的字体名字*/ 
+			  src:url("font-family/AdobeHeitiStd-Regular.otf"); /*这里是字体文件路径*/ 
+			} 
+			
+			body{
+				width: 100%;
+				height: 100%;
+				overflow-x: hidden;
+			}
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: inherit;
+			}
+			p{
+				display: block;
+			    -webkit-margin-before: 0em;
+			    -webkit-margin-after: 0em;
+			    -webkit-margin-start: 0px;
+			    -webkit-margin-end: 0px;
+			}
+			h1,h2,h3{
+				padding: 0;
+				margin: 0;
+				-webkit-margin-before: 0em;
+			    -webkit-margin-after: 0em;
+			    -webkit-margin-start: 0px;
+			    -webkit-margin-end: 0px;
+			}
+			a{
+				text-decoration: none;
+			}
+			li{
+				list-style: none;
+			}
+			input{
+				outline: none;
+			}
+			.top_bar_before{
+				height: 120px;
+				width: 100%;
+				position: fixed;
+				top: 0;
+				z-index: 98;
+			}
+			.top_bar{
+				height: 120px;
+				width: 100%;
+				background-color: #d7faff;
+				position: fixed;
+				z-index: 99;
+				padding-top: 37px;
+				text-align: center;
+				box-sizing: border-box;
+				overflow: hidden;
+			}
+			/*--------------------------------------------------------------------------------------------*/
+			
+			.top_bar .onelist{
+				box-sizing: border-box;
+				padding-left: 60px;
+				padding-right: 60px;
+			}
+			.top_bar .onelist .menu{
+				float: left;
+				font-size: 14px;
+				cursor: pointer;
+			}
+			.top_bar .onelist .shop{
+				float: right;
+				font-size: 14px;
+				cursor: pointer;
+				color: #626262;
+			}
+			.top_bar .onelist .shop p{
+				padding-top: 2px;
+			}
+			
+			
+			.top_bar .onelist .search{
+				overflow: hidden;
+				height: 51px;
+				float: right;
+				padding-right: 40px;
+				transition: all .5s;
+			}
+			.top_bar .onelist .search input{
+				width: 280px;
+				height: 45px;
+				border: 1px solid #bbbbbb;
+				border-radius: 23px;
+				background-color: rgba(0,0,0,0);
+				outline: none;
+				text-indent: 20px;
+				font-size: 18px;
+				display: block;
+				float: left;
+				transition: all .5s;
+			}
+			.top_bar .onelist .search img{
+				margin-top: 10px;
+				margin-left: -50px;
+				cursor: pointer;
+				transition: all .5s;
+			}
+			.top_bar .onelist .search p{
+				display: none;
+				transition: all .5s;
+				color: #626262;
+			}
+			
+			.top_bar .onelist .re_search input{
+				width: 0px;
+				border:none;
+			}
+			.top_bar .onelist .re_search img{
+				display: block;
+				margin: 0 auto;
+				cursor: pointer;
+			}
+			.top_bar .onelist .re_search p{
+				padding-top: 2px;
+				font-size: 14px;
+				display: inline-block;
+				color: #626262;
+			}
+			.top_bar .page_name{
+				width: 100%;
+				height: 30px;
+				line-height: 30px;
+				font-size: 30px;
+				position: absolute;
+				font-family: AHS;
+				left: 0;
+				top: 145px;
+			}
+			.top_bar .page_name p{
+				color: #4f4f4f;
+				letter-spacing: 5px;
+			}
+			.top_bar .logo_black{
+				position: absolute;
+				width: 100%;
+				top: 23px;
+				transition: all 1s;
+				opacity: 0;
+				z-index: -1;
+				
+			}
+
+			.left_nav{
+				position: fixed;
+				left: -370px;
+				top: 0;
+				width: 370px;
+				height: 100vh;
+				background-color: #fff;
+				padding-top: 36px;
+				z-index: 99;
+			}
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+			
+			.left_nav .menu{
+				margin-left: 60px;
+				height: 28px;
+				cursor: pointer;
+			}
+			.left_nav .menu img{
+				float: left;
+			} 
+			.left_nav .menu p{
+				height: 28px;
+				line-height: 28px;
+				font-size: 24px;
+				padding-left: 40px;
+			}
+			.left_nav .main_nav ul {
+				padding-top: 120px;
+			}
+			.left_nav .main_nav ul li{
+				width: 270px;
+				height: 60px;
+				line-height: 60px;
+				padding-left: 50px;
+				cursor: pointer;
+			}
+			.left_nav .main_nav ul li:hover{
+				background-color: #d7faff;
+			}
+			.left_nav .main_nav ul li img{
+				vertical-align: middle;
+			}
+			.left_nav .main_nav ul li p{
+				padding-left: 15px;
+				font-size: 18px;
+				display: inline-block;
+				color: #626262;
+				font-family: MiddlePingFang;
+			}
+			.left_nav .bottom_box{
+				position: absolute;
+				bottom: 0;
+				left: 20px;
+				width: 270px;
+				height: 230px;
+				border-top: 1px solid #585858;
+				color: #585858;
+				padding-left: 40px;
+				padding-top: 60px;
+				box-sizing: border-box;
+			}
+			.left_nav .bottom_box .name{
+				font-size: 30px;
+				height: 30px;
+				line-height: 30px;
+				font-family: AHS;
+				font-weight: lighter;
+				letter-spacing: 5px;
+			}
+			.left_nav .bottom_box .short_bar{
+				width: 25px;
+				height: 1px;
+				background-color: #585858;
+				margin-top: 12px;
+			}
+			.left_nav .bottom_box .record_number{
+				font-size: 14px;
+				height: 40px;
+				line-height: 20px;
+				padding-top: 12px;
+				font-family: SimSun;
+			}
+			.left_nav .three_line{
+				position: absolute;
+				top: 50%;
+				right: 28px;
+				margin-top: -207px;
+				width: 11px;
+				height: 414px;
+				background: url(../img/three_line.png);
+				cursor: pointer;
+			}
+			
+			
+@media only screen and (min-width: 300px) and (max-width: 800px) {/*__________________________________________________________________________*/
+	.top_bar{
+		height: 80px;
+		padding-top: 20px;
+	}
+	.top_bar .onelist{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.top_bar .onelist .search input{
+		width: 150px;
+	}
+	.top_bar .onelist .re_search input{
+		width: 0px;
+		border:none;
+	}
+	.left_nav{
+		width: 320px;
+		background-color: rgba(255,255,255,.95);
+	}
+	.left_nav .main_nav ul {
+		padding-top: 35px;
+	}
+	.left_nav .main_nav ul li{
+		width: 250px;
+		height: 30px;
+		line-height: 30px;
+		padding-left: 50px;
+	}
+	.left_nav .main_nav ul li p{
+		font-size: 16px;
+	}
+	.left_nav .three_line{
+		right: 10px;
+	}
+}

@@ -1,0 +1,182 @@
+			@font-face { 
+			  font-family: LighterPingFang; /*这里是说明调用来的字体名字*/ 
+			  src:url("font-family/PingFang Light.ttf"); /*这里是字体文件路径*/ 
+			} 
+			@font-face { 
+			  font-family: MiddlePingFang; /*这里是说明调用来的字体名字*/ 
+			  src:url("font-family/PingFang Medium.ttf"); /*这里是字体文件路径*/ 
+			} 
+			@font-face { 
+			  font-family: AHS; /*这里是说明调用来的字体名字*/ 
+			  src:url("font-family/AdobeHeitiStd-Regular.otf"); /*这里是字体文件路径*/ 
+			} 
+			
+			html,body{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				position:fixed;
+			}
+			.full_page{
+				width: 100%;
+				overflow: hidden;
+				height: 100%;
+				
+			}
+			.full_page .background_img{
+				left: 0%;
+				position:absolute;
+				height: 100%;
+				
+			}
+			.full_page .background_img > li{
+				display: inline-block;
+				float: left;
+				width: 100%;
+				height: 100%;
+			}
+			.full_page .background_img > .picture1{
+				background: url(../img/paojiaofengzhua.jpg);
+				background-position: 50% 0%;
+			}
+			.full_page .background_img > .picture2{
+				background: url(../img/xianglajungan.jpg);
+				background-position: 50% 0%;
+			}
+			.full_page .background_img > .picture3{
+				background: url(../img/xianglayazhang.jpg);
+				background-position: 50% 0%;
+			}
+			.before_page{
+				z-index: 9;
+				position: absolute;
+				text-align: center;
+				width: 100%;
+				height: 100%;
+				color: #fff;
+			}
+			.before_page .left_page{
+				width: 50%;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				/*background-color: rgba(0,0,0,.2);*/
+				z-index: 19;
+				transition: all .5s;
+				opacity: 0;
+				
+			}
+			.before_page .page_show{
+				background-color: rgba(0,0,0,.2);
+			}
+			.before_page .page_show .bar{
+				opacity: 1;
+			}
+			.before_page .page_show .link_box{
+				opacity: 1;
+			}
+			.before_page .right_page{
+				width: 50%;
+				height: 100%;
+				position: absolute;
+				/*background-color: rgba(0,0,0,.2);*/
+				right: 0;
+				opacity: 0;
+				z-index: 19;
+				transition: all .5s;
+			}
+			.before_page div .big_title{
+				font-size: 88px;
+				font-family: AHS;
+				height: 88px;
+				line-height: 88px;
+				padding-top: 420px;
+				letter-spacing: 2px;
+				
+			}
+			.before_page div .bar{
+				width: 528px;
+				height: 4px;
+				background-color: #fff;
+				margin: 0 auto;
+				margin-top: 20px;
+				opacity: 0;
+				transition: all .2s;
+			}
+			.before_page div .link_box{
+				padding-top: 20px;
+				transition: all .2s;
+				opacity: 0;
+			}
+			.before_page div .link_box a{
+				color: #fff;
+			}
+			.before_page div .link_box a:hover{
+				text-decoration: none;
+			}
+			.before_page div .link_box span{
+				font-size: 22px;
+				padding-left: 26px;
+				padding-right: 26px;
+				letter-spacing: 2px;
+			}
+			.before_page .logo{
+				margin-top: 227px;
+				transition: all .5s;
+			}
+			.before_page h1{
+				padding-top: 230px;
+				height: 60px;
+				line-height: 60px;
+				color: #fff;
+				font-size: 60px;
+				font-weight: 300;
+				font-family: AHS;
+				transition: all .3s;
+			}
+			.before_page h2{
+				font-weight: lighter;
+				letter-spacing: 4px;
+				font-family: Cambria;
+				padding-top: 5px;
+				font-size: 24px;
+				color: #fff;
+			}
+			.before_page .bt_text{
+				position: absolute;
+				width: 100%;
+				height: 152px;
+				bottom: 0;
+				transition: all .5s;
+			}
+			.before_page .name{
+				font-size: 36px;
+				font-family: AHS;
+			}
+			.before_page .short_bar{
+				width: 24px;
+				height: 1px ;
+				background-color: #fff;
+				margin: 10px auto;
+			}
+			.before_page .record_number{
+				font-size: 14px;
+				font-family: SimSun;
+			}
+			
+			
+@media only screen and (min-width: 300px) and (max-width: 800px) {/*__________________________________________________________________________*/
+	
+	.before_page h1{
+		padding-top: 50px;
+		font-size: 20px;
+	}
+	.before_page h2{
+		font-size: 10px;
+		letter-spacing: 2px;
+	}
+	.before_page .logo{
+		margin-top: 150px;
+	}
+	
+}

@@ -1,0 +1,38 @@
+#content{position: relative;width: 100%;height: 1190px;background-color: #fcf4e4;overflow: hidden;z-index: 10;overflow-x:hidden;}
+.clear:after{content: "";display: block;clear: both;}
+.position{padding-top: 20px;height: 28px;line-height: 28px;font-size: 14px;color: #222;border-bottom:1px solid #aa0e25; }
+.position p.left{float: left;}
+.position p.left span{padding: 0 18px 0 5px;}
+.position p.left a{margin-right: 5px;}
+.position p.right{float: right;margin-right: 5px;}
+.position p.right a{display: block;text-indent: 30px;width: 60px;background: url(../image/Return.png) no-repeat center left 0;}
+
+
+
+
+.new{padding-top: 22px;}
+.new .left{float: left;height: 310px;width: 257px;border:1px solid #a06533;border-radius: 7px;overflow: hidden;background: #f4e9d5;}
+.new .left p{height: 45px;text-align: center;line-height: 45px;color: #fff;background-color: #790000;font-family: '微软雅黑';}
+.new .left .lfnewlist{margin: 0 auto ;height: 320px;width: 240px;}
+.new .left .lfnewlist ul {width: 240px;}
+.new .left .lfnewlist ul li{margin-top: 20px;font-family: '微软雅黑';height: 36px;width: 237px;line-height: 36px;text-align: center;  
+border:1px solid #9c6331;border-radius: 5px;color: #333;background: url(../image/libg1.png) center no-repeat;position: relative;}
+.new .left .lfnewlist ul li.active{color: #fff;cursor: pointer;background: #930303;}
+.new .left .lfnewlist ul li:hover{cursor: pointer;}
+.new .left .lfnewlist ul li a {display: block;width: 237px;top:0;left: 0;height: 38px;position: absolute;}
+
+.new .right{float: right;width: 869px;border:1px solid #790000;border-radius: 7px;padding: 0 24px;background: #f4e9d5;}
+.new .right ul.newcontent>li{width: 869px;}
+.new .right ul.newcontent>li{display: none;}
+.new .right ul.newcontent>li.show{display: block;}
+.title{height: 64px;line-height: 64px;text-align: center;}
+.title p{font-family: '微软雅黑';font-size: 24px;color: #790000;}
+.newtime{height: 60px;line-height: 24px;padding-left: 278px;font-size: 12px;color: #444;border-bottom: 1px solid #444;}
+.newtime p{float: left;margin-right: 25px;}
+.cents{padding-top: 25px;}
+.cents p{font-family: '微软雅黑';font-size: 14px;color: #444;line-height: 26px;}
+.cents .Inscribed{height: 60px;width: 160px;float: right;text-align: center;padding:100px 0 70px 0;}
+
+.prev,.next{margin:0 0 20px 10px;font-family: '微软雅黑';font-size: 14px;color: #444;}
+
+.footer{margin-top: 40px;}

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+  		<link rel="stylesheet" href="css/swiper.min.css">
+		<script src="js/jquery-3.2.1.js"></script>
+		<title></title>
+		<style>
+	.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .show_bar #btn{
+    	opacity: .3;
+    }
+		</style>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="middle_box">
+				<div class="logo"><img src="img/logo.png" alt="" /></div>
+				<div class="right_side">
+					<div class="right_side_top">
+						<p class="time"><img src="img/timg.png" alt="" />距<span class="name">2018重庆体育产业博览会</span>开幕还有 <span class="day">202</span> 天</p>
+						<p class="collect"><img src="img/star.png" alt="" /><a href="">加入收藏</a></p>
+						<p class="sign"><img src="img/user.png" alt="" /><a href="" class="sign_in">登录</a><a href="" class="sign_up">注册</a></p>
+					</div>
+					<div class="telphone">
+						<img src="img/phone.png" alt="" />
+						<div class="phone_box">
+							<p>展会招商服务热线：</p>
+							<p>023 67071380</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航条-->
+		<div class="nav">
+			<div class="middle_box">
+				<ul class="nav_1">
+					<li><a href="index.html"><p>首页</p></a></li>
+					<li><a href="survey.html"><p>展会概况</p></a>
+						<ul class="nav_2">
+							<li><img src="img/small_right.png"/><a href="survey.html?pid=1"><p>关于展会</p></a></li>
+							<li><img src="img/small_right.png"/><a href="survey.html?pid=2"><p>展会优势</p></a></li>
+							<li><img src="img/small_right.png"/><a href="survey.html?pid=3"><p>展会介绍</p></a></li>
+							<li><img src="img/small_right.png"/><a href="survey.html?pid=4"><p>展区规划</p></a></li>
+							<li><img src="img/small_right.png"/><a href="survey.html?pid=5"><p>展区范围</p></a></li>
+						</ul>
+					</li>
+					<li><a href="exhibitor_service.html"><p>展商服务</p></a>
+						<ul class="nav_2">
+							<li><img src="img/small_right.png"/><a href="exhibitor_service.html?pid=1"><p>参展须知</p></a></li>
+							<li><img src="img/small_right.png"/><a href="exhibitor_service.html?pid=2"><p>展商报名</p></a></li>
+							<li><img src="img/small_right.png"/><a href="exhibitor_service.html?pid=3"><p>展位报价</p></a></li>
+							<li><img src="img/small_right.png"/><a href="exhibitor_service.html?pid=4"><p>展商通知</p></a></li>
+							<li><img src="img/small_right.png"/><a href="exhibitor_service.html?pid=5"><p>观众来源</p></a></li>
+							<li><img src="img/small_right.png"/><a href="exhibitor_service.html?pid=6"><p>交通指南</p></a></li>
+							<li><img src="img/small_right.png"/><a href="exhibitor_service.html?pid=7"><p>联系团队</p></a></li>
+						</ul>
+					</li>
+					<li><a href="spectator_service.html"><p>观众服务</p></a>
+						<ul class="nav_2">
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=1"><p>个人报名</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=2"><p>团体报名</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=3"><p>展区规划</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=4"><p>参展品牌</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=5"><p>活动日程</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=6"><p>参观路线</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=7"><p>交通指南</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=8"><p>住宿指南</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=9"><p>餐饮指南</p></a></li>
+							<li><img src="img/small_right.png"/><a href="spectator_service.html?pid=10"><p>联系团队</p></a></li>
+						</ul>
+					</li>
+					<li><a href="activity.html"><p>活动/论坛</p></a>
+						<ul class="nav_2">
+							<li><img src="img/small_right.png"/><a href="activity.html?pid=1"><p>活动日程</p></a></li>
+							<li><img src="img/small_right.png"/><a href="activity.html?pid=2"><p>论坛矩阵</p></a></li>
+						</ul>
+					</li>
+					<li><a href="news.html"><p>新闻媒体</p></a>
+						<ul class="nav_2">
+							<li><img src="img/small_right.png"/><a href="news.html?pid=1"><p>时势解读</p></a></li>
+							<li><img src="img/small_right.png"/><a href="news.html?pid=2"><p>展会新闻</p></a></li>
+							<li><img src="img/small_right.png"/><a href="news.html?pid=3"><p>活动新闻</p></a></li>
+							<li><img src="img/small_right.png"/><a href="news.html?pid=4"><p>新闻推广联系</p></a></li>
+						</ul>
+					</li>
+					<li><a href="download.html"><p>下载专区</p></a>
+						<ul class="nav_2">
+							<li><img src="img/small_right.png"/><a href="download.html?pid=1"><p>文件下载</p></a></li>
+							<li><img src="img/small_right.png"/><a href="download.html?pid=2"><p>海报下载</p></a></li>
+							<li><img src="img/small_right.png"/><a href="download.html?pid=3"><p>组委会刊物</p></a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="banner">
+			<div class="img_box">
+				<ul>
+					<li style="background-image: url(img/banner.png);"></li>
+					<li style="background-image: url(img/banner.png);"></li>
+					<li style="background-image: url(img/banner.png);"></li>
+					<li style="background-image: url(img/banner.png);"></li>
+					<li style="background-image: url(img/banner.png);"></li>
+				</ul>
+			</div>
+			<div class="number_box">
+				<ul>
+				</ul>
+			</div>
+		</div>
+		<!--展示-->
+		<div class="show_bar">
+			<div class="left_btn"></div>
+			<div class="middle_box">
+				 <!-- Swiper -->
+				  <div class="swiper-container">
+				    <div class="swiper-wrapper">
+				      <div class="swiper-slide"><a href=""><img src="img/show_1.png"/></a></div>
+				      <div class="swiper-slide"><a href=""><img src="img/show_2.png"/></a></div>
+				      <div class="swiper-slide"><a href=""><img src="img/show_3.png"/></a></div>
+				      <div class="swiper-slide"><a href=""><img src="img/show_4.png"/></a></div>
+				    </div>
+				    <!-- Add Arrows -->
+				    <div class="swiper-button-next" id="btn"></div>
+				    <div class="swiper-button-prev" id="btn"></div>
+				  </div>
+				
+				  <!-- Swiper JS -->
+			</div>
+			<div class="right_btn"></div>
+		</div>
+		<div class="main">
+			<div class="middle_box">
+				<div class="main_top">
+					<div class="top_left ">
+						<div class="title_box">
+							<div class="title title_1">
+								<p>展会动态</p>
+							</div>
+							<div class="title title_2">
+								<p>最新活动</p>
+							</div>
+						</div>
+						<div class="content_box content_box1">
+							<!--只添加七条-->
+							<p><img src="img/small_right_gray.png" alt="" />工匠精神打造质量优势 定州体育产业期待京津冀一体化激活</p>
+							<p><img src="img/small_right_gray.png" alt="" />2018体博会场馆展区再创历史新高 2018场馆论坛再度聚焦行...馆论坛再度聚焦馆论坛再度聚焦</p>
+							<p><img src="img/small_right_gray.png" alt="" />来自韩国的室内智能高尔夫 用科技延展你的运动场所馆论坛再度聚焦馆论坛再度聚焦</p>
+							<p><img src="img/small_right_gray.png" alt="" />户外“玩铁”?它填补了户外力量型器材健身的空白</p>
+							<p><img src="img/small_right_gray.png" alt="" />工匠精神打造质量优势 定州体育产业期待京津冀一体化激活</p>
+							<p><img src="img/small_right_gray.png" alt="" />2018体博会场馆展区再创历史新高 2018场馆论坛再度聚焦行...馆论坛再度聚焦馆论坛再度聚焦</p>
+							<p><img src="img/small_right_gray.png" alt="" />来自韩国的室内智能高尔夫 用科技延展你的运动场所馆论坛再度聚焦馆论坛再度聚焦</p>
+							<p><img src="img/small_right_gray.png" alt="" />户外“玩铁”?它填补了户外力量型器材健身的空白</p>
+							<p><img src="img/small_right_gray.png" alt="" />再聚上海 高峰论坛升级产业峰会 观众报名已上线</p>
+							<p><img src="img/small_right_gray.png" alt="" />专属NBA配色的运动场地，激发我们的运动激情</p>
+							<p><img src="img/small_right_gray.png" alt="" />足球装备市场超级IP何在？青少年踢球习惯是方向</p>
+								<div class="more_btn">
+									<p>查看更多<img src="img/more.png" alt="" /></p>
+								</div>
+						</div>
+						<div class="content_box content_box2">
+							<p><img src="img/small_right_gray.png" alt="" />再聚上海 高峰论坛升级产业峰会 观众报名已上线</p>
+							<p><img src="img/small_right_gray.png" alt="" />专属NBA配色的运动场地，激发我们的运动激情</p>
+							<p><img src="img/small_right_gray.png" alt="" />足球装备市场超级IP何在？青少年踢球习惯是方向</p>
+							<p><img src="img/small_right_gray.png" alt="" />工匠精神打造质量优势 定州体育产业期待京津冀一体化激活</p>
+							<p><img src="img/small_right_gray.png" alt="" />2018体博会场馆展区再创历史新高 2018场馆论坛再度聚焦行...</p>
+							<p><img src="img/small_right_gray.png" alt="" />来自韩国的室内智能高尔夫 用科技延展你的运动场所</p>
+							<p><img src="img/small_right_gray.png" alt="" />户外“玩铁”?它填补了户外力量型器材健身的空白</p>
+								<div class="more_btn">
+									<a href=""><p>查看更多<img src="img/more.png" alt="" /></p></a>
+								</div>
+						</div>
+						
+					</div>
+					<div class="top_right">
+						<div class="left_side">
+							<div class="title"><p>展会介绍</p></div>
+							<div class="content">
+								<p>中国西部规模最大、最权威、最具前瞻性的综合性体育产业盛会<br />
+									全球体育品牌进入中国西部市场的便捷通道，中国西部体育产业链接世界的重要桥梁<br />
+									拓展体育产业渠道，聚焦体育科技，弘扬体育文化的综合性体育产业展示平台<br />
+									体育用品企业在中国西部市场品牌推广和渠道拓展的桥头堡<br />
+									700多家国内外体育用品行业知名企业将参加本次盛会<br />
+									三大板块十二大主题展区配合丰富多彩的现场活动<br />
+									多场次涉及中国西部体育市场渠道拓展、体育产业融合、体育前沿科技、中国西部体育产业发展趋势及未来市场分析等一系列高端峰会和论坛
+								</p>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+						<div class="right_side"><img src="img/guanggao.png"/></div>
+					</div>
+					<div style="clear: both;">
+						
+					</div>
+				</div>
+				<div class="main_foot">
+					<div class="qaa">
+						<div class="right_border_box"></div>
+						<div class="title"><p>展会问答</p></div>
+						<div class="content">
+							<div class="left_side">
+								<img src="img/answer.png" alt="" />
+							</div>
+							<div class="right_side">
+								<div class="artcle">
+									<p class="question"><img src="img/question.png"/>本次展会的主办方是谁？参与展会可以给我带来说明作用？</p>
+									<p class="answer">动场地，激发我们动场地，激发我们动场地，激发我们动场地，激发我们<br />
+									动场地，激发我们动场地，激发我们动场地，激发我们...</p>
+								</div>
+								<div class="artcle">
+									<p class="question"><img src="img/question.png"/>如何索取本次体博会门票？</p>
+									<p class="answer">动场地，激发我们动场地，激发我们动场地，激发我们动场地，激发我们<br />
+									动场地，激发我们动场地，激发我们动场地，激发我们...</p>
+								</div>
+								<div class="artcle">
+									<p class="question"><img src="img/question.png"/>本次展会有哪些品牌参加？</p>
+									<p class="answer">动场地，激发我们动场地，激发我们动场地，激发我们动场地，激发我们
+									动场地，激发我们动场地，激发我们动场地，激发我们...</p>
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+					</div>
+					<div class="message">
+						<div class="title"><p>在线留言</p></div>
+						<div class="content">
+							<form action="">
+								<div class="onelist"><p>联&nbsp; 系&nbsp; 人:</p><input type="text" /></div>
+								<div class="onelist"><p>联系方式:</p><input type="text" /></div>
+								<div class="onelist"><p>电子邮箱:</p><input type="text" /></div>
+								<div class="onelist"><p>留 &nbsp; &nbsp; &nbsp; 言:</p><textarea name="" rows="" cols=""></textarea></div>
+								<input type="submit" name="" id="submit" value="立即提交" />
+							</form>
+						</div>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="partners">
+			<div class="middle_box">
+				<div class="title"><p>合作媒体及支持单位</p></div>
+				<ul class="oneline">
+					<li><img src="img/partners_item.png"/></li>
+					<li><img src="img/partners_item.png"/></li>
+					<li><img src="img/partners_item.png"/></li>
+				</ul>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="middle_box">
+				<div class="foot_top">
+					<div class="lianjie">
+						<div class="onelist">
+							<img src="img/home.png" alt="" />
+							<ul>
+								<li>企业文化</li>
+								<li>联系我们</li>
+								<li>关于我们</li>
+							</ul>
+						</div>
+						<div class="onelist">
+							<img src="img/caidan.png" alt="" />
+							<ul>
+								<li>展会概况</li>
+								<li>展商服务</li>
+								<li>观众服务</li>
+								<li>活动/论坛</li>
+								<li>新闻媒体</li>
+								<li>下载专区</li>
+							</ul>
+						</div>
+						<div class="onelist">
+							<img src="img/headset.png" alt="" />
+							<ul>
+								<li>在线留言</li>
+								<li>逛展攻略</li>
+							</ul>
+						</div>
+					</div>
+					<div class="erweima_box">
+						<img src="img/erweima.png" alt="" />
+						<p> 关注重庆体博会</p>
+					</div>
+				</div>
+				<div class="dbline"></div>
+				<div class="foot_bottom"><p>ICP备案号：渝ICP备12028954号</p></div>
+			</div>
+		</div>
+		
+
+<script src="js/public.js"></script>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+	var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      slidesPerGroup:  4,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+</script>
+	</body>
+</html>

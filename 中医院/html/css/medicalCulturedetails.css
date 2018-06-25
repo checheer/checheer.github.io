@@ -1,0 +1,79 @@
+
+.clear:after{content: "";display: block;clear: both;}
+#content{position: relative;background-color: #fcf4e4;z-index: 10;overflow:hidden;}
+#content .position{margin: 20px 0;height: 30px;line-height: 30px;font-size: 14px;color: #222;
+border-bottom:1px solid #aa0e25; }
+.position .ptleft{float:left;}
+.position .ptleft span{padding: 0 18px 0 5px;}
+.position .ptleft a{margin-right: 5px;}
+.position .ptright{float:right;}
+.position .ptright{margin-right: 5px;}
+.position .ptright a{display: block;width: 60px;text-indent: 30px;background: url(../image/Return.png)  no-repeat center left 0;}
+
+.sycenter:after{content: "";display: block;clear: both;}
+.sycenter{margin-bottom: 40px;}
+.conleft {width: 254px; float: left;}
+.conleft .left-content{width: 254px;height: 242px;border:1px solid #a06533;background-color: #f4e9d5;border-radius: 5px;overflow: hidden;}
+.conleft .left-content .title{margin-top: -2px;margin-bottom: 25px;height: 38px;width: 254px;line-height: 37px;text-align: center;color:#fff ;
+background-color:#790000;border-radius: 5px;font-family: '微软雅黑';font-size: 20px}
+.conleft .left-content ul{width: 236px;height: 305px;margin:0 auto;}
+.conleft .left-content ul li{margin-bottom: 20px;width: 236px;height: 36px;color: #333333;text-align: center;line-height: 36px;border:
+1px solid #a06533;border-radius: 5px;font-family: '微软雅黑';font-size: 18px;background: url(../image/libg1.png) no-repeat center;}
+.conleft .left-content ul li.active{background: #930303;color: #fff;}
+.conleft .left-content ul li:hover{cursor: pointer;}
+
+
+.conright{width: 916px;float: right;background-color: #f4e9d5;border: 1px solid #790000;border-radius: 3px;}
+.conright .substanceul {}
+.conright .substanceul li{display: none;}
+.conright .substanceul li.show{display: block;}
+.Hospital-culture-title{padding: 6px 0;height: 46px;border-bottom: 1px solid #790000;}
+.Hospital-culture-title>span{float: left;display: inline-block;margin-left: 26px;height: 46px;width: 147px;line-height: 46px;text-align: center;font-family: "微软雅黑";font-size: 24px;color: #fff;background: #790000;border-radius: 3px;}
+.Hospital-culture-title>p{float: right;margin: 36px 26px 0 0;font-family: '宋体';font-size: 12px;color: #555;}
+.Hospital-culture-title>p>span{font-family: '宋体';font-size: 12px;color: #555;}
+.Hospital-culture-cent{margin: 0 auto;width: 864px;padding-bottom: 120px;}
+.Hospital-culture-cent .img{height: 42px;width: 364px;margin: 70px auto;}
+.Hospital-culture-cent .introduce{margin-top: 30px;}
+.Hospital-culture-cent .introduce h3{font-family: "微软雅黑";font-size: 20px;text-indent: 30px;color: #790000;height: 30px;line-height: 30px;background: url(../image/dot.png) left 10px center no-repeat;}
+.Hospital-culture-cent .introduce p{font-family: "微软雅黑";font-size: 16px;color: #222;text-indent: 25px;line-height: 28px;}
+
+
+.jjright{width: 867px;margin:0 auto;}
+.jjright .title{display: block;height: 54px;line-height: 54px;text-align: center;}
+.jjright .title span{font-family: '微软雅黑';font-size: 24px;color: #790000;}
+.jjright .newtime{height: 30px;line-height: 30px;border-bottom:1px solid #444;}
+.jjright .newtime p{float: left;font-size: 12px;color: #444}
+.jjright .newtime p:nth-child(1){padding-left: 269px;}
+.jjright .newtime p span{margin-right: 25px;}
+.jjright .img{width: 545px; height: 327px;margin: 20px auto;border:1px solid #000;}
+.jjright .explain p{font-family: '微软雅黑';font-size: 14px;color: #333;line-height: 25px;}
+.jjright .prevpage{padding-top: 280px;}
+.jjright .page p{font-family: '微软雅黑';font-size: 14px;color: #444}
+.jjright .prevpage p span{margin-left: 10px;color: #444}
+.jjright .nextpage p a{margin-left: 10px;color: #444}
+.jjright .nextpage{padding-bottom: 20px;}
+
+.foot{margin-top: 40px;}
+.foot .footlink{height: 30px;border-bottom:2px solid #790000;}
+.foot .footlink p{float: left;width: 120px;background: url(../image/I_ico.png) left 0 center no-repeat;text-indent: 30px;}
+.foot .footlink p a{font-size: 18px;font-family: '微软雅黑';color: #790000;}
+.footlink ul{float: left;width: 780px;margin-top: 4px;}
+.footlink ul li{float: left;padding:0 15px;border-right:1px solid #790000;color: #790000;}
+.footlink ul li.last{border:none;}
+.footlink ul li a{font-size: 14px;color: #790000;}
+.footnav{width: 800px;margin:15px 0 0 134px;}
+.footnav ul li {float: left;padding: 0 10px;border-right:1px solid #000;font-size: 14px;}
+.footnav ul li:nth-child(10){border:none;}
+
+.footaddrss{color: #5e5e5e;font-size: 12px;padding-top: 30px;}
+.footaddrss p:nth-child(1){margin-bottom: 10px;margin-left:230px;}
+.footaddrss p span{margin-right: 45px;}
+.footaddrss p span:nth-child(3){margin-right: 0}
+.footaddrss p:nth-child(2){margin-bottom: 30px;margin-left:235px;width: 500px;background: url(../image/foott.png) left 0 center no-repeat;text-indent: 20px;}
+
+
+.topbg{position: absolute;width: 1920px;height: 1095px;background: url(../image/I_content-top.png) center no-repeat;top:25px;left: 0;z-index: -1}
+.leftbg{position: absolute;width: 639px;height: 567px;background: url(../image/I_bjleft.jpg) center no-repeat;bottom:0;left: 0;z-index: -1}
+.rightbg{position: absolute;width: 541px;height: 520px;background: url(../image/I_bjright.jpg) center no-repeat;bottom:0;right: 0;z-index: -1}
+
+
